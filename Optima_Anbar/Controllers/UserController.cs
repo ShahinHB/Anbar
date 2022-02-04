@@ -115,17 +115,7 @@ namespace Optima_Anbar.Controllers
         {
             await _roleManager.CreateAsync(model);
             return RedirectToAction("Roles");
-        }
-
-        public IActionResult DeleteUser(int id)
-        {
-
-            CustomUser user = _context.CustomUsers.Find(id);
-
-            _context.CustomUsers.Remove(user);
-            _context.SaveChanges();
-            return RedirectToAction("Index");
-        }
+        }      
 
     }
 }
