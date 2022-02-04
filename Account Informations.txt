@@ -1,0 +1,9 @@
+Sistemə giriş üçün UserName və Şifrələr
+
+Admin
+UserName: Shahin
+Password: Shahin123
+
+Moderator
+UserName: Ramiz
+Password: Ramiz123
