@@ -50,6 +50,7 @@ namespace Optima_Anbar
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

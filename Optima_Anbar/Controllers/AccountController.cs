@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Optima_Anbar.Data;
 using Optima_Anbar.ViewModels;
@@ -25,6 +26,11 @@ namespace Optima_Anbar.Controllers
             _roleManager = roleManager;
         }
 
+        public IActionResult AccessDenied()
+        {
+            return View();
+        }
+
         public IActionResult Login()
         {
             return View();
@@ -49,6 +55,11 @@ namespace Optima_Anbar.Controllers
             }
 
             return View(model);
+        }
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Login");
         }
     }
 }

@@ -161,3 +161,7 @@ C:\Users\Shahin\Desktop\practices\Optima_Anbar\Optima_Anbar\obj\Debug\netcoreapp
 C:\Users\Shahin\Desktop\practices\Optima_Anbar\Optima_Anbar\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
 C:\Users\Shahin\Desktop\practices\Optima_Anbar\Optima_Anbar\obj\Debug\netcoreapp3.1\Razor\Views\User\CreateUser.cshtml.g.cs
 C:\Users\Shahin\Desktop\practices\Optima_Anbar\Optima_Anbar\obj\Debug\netcoreapp3.1\Razor\Views\User\Index.cshtml.g.cs
+C:\Users\Shahin\Desktop\practices\Optima_Anbar\Optima_Anbar\obj\Debug\netcoreapp3.1\Razor\Views\User\UpdateUser.cshtml.g.cs
+C:\Users\Shahin\Desktop\practices\Optima_Anbar\Optima_Anbar\obj\Debug\netcoreapp3.1\Razor\Views\User\Roles.cshtml.g.cs
+C:\Users\Shahin\Desktop\practices\Optima_Anbar\Optima_Anbar\obj\Debug\netcoreapp3.1\Razor\Views\User\RoleCreate.cshtml.g.cs
+C:\Users\Shahin\Desktop\practices\Optima_Anbar\Optima_Anbar\obj\Debug\netcoreapp3.1\Razor\Views\Account\AccessDenied.cshtml.g.cs
